@@ -11,5 +11,5 @@ I will be grdauating from **CSUN** in **Spring 2023**  to potentially getting in
 ## What I am telling myself this semester:
 ![h](pictures/IMG_0920.jpeg)  
 
-##If you struggle with the coding part of this class just know:
-![](pictures/IMG_)
+##If you struggle with the coding part of this class just know:  
+![s](pictures/IMG_7344.jpeg)
