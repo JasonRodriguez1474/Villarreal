@@ -1,3 +1,5 @@
 # Villarreal
-I am an undergrad student in Biology and I will be grdauating from **CSUN** in **Spring 2023**  
-![my brain](/Users/davidvillarreal/Desktop/BIOL551/Villarreal/pictures/IMG_0913.png?raw=true)
+I am an undergrad student majoring in Biology and I am working in Dr.Amorim's lab for his research.  
+In this research, I am working with human DNA from different regions to see if their mtDNA alters between areas.  
+I will be grdauating from **CSUN** in **Spring 2023**  to potentially getting into data analysis.  
+![](pictures/IMG_0920.jpng)
