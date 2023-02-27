@@ -19,7 +19,7 @@ jobs:
       - name: run-r-files
         # Code to execute R script
         run: |
-          for script in ${{ steps.glob.outputs.paths }}
+          for SCRIPT in ${{ steps.glob.outputs.paths }}
           do
-            Rscript script
+            Rscript $SCRIPT
           done
