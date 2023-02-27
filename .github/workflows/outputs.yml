@@ -1,0 +1,25 @@
+name: artifacts-gather
+on:
+  push:
+    branches:
+      - main
+jobs:
+  collect-artifacts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: r-lib/actions/setup-r@v3
+      - uses: actions/checkout@v2
+        # Installs R
+      - name: collect-r-files
+        uses: tj-actions/glob@v16
+        id: glob
+        with:
+          files: |
+            **/*.R
+      - name: run-r-files
+        # Code to execute R script
+        run: Rscript -e 'print("Hello R World!")' 
+        run: |
+          for script in "${{ steps.glob.outputs.paths }}"
+          do
+            Rscript script
