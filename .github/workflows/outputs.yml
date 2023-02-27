@@ -18,7 +18,6 @@ jobs:
             **/*.R
       - name: run-r-files
         # Code to execute R script
-        run: Rscript -e 'print("Hello R World!")' 
         run: |
           for script in "${{ steps.glob.outputs.paths }}"
           do
