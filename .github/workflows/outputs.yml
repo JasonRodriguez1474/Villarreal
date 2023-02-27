@@ -22,3 +22,4 @@ jobs:
           for script in ${{ steps.glob.outputs.paths }}
           do
             Rscript script
+          done
